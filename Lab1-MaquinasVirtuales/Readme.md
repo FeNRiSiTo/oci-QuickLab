@@ -100,7 +100,7 @@ Objetivos:
 
   1. Copiamos la IP privada de una nuestras instancias
      
-     ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-18.png)
+     ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-20.png)
 
   2. Volvemos al Escritorio Remoto, y en el terminal, hacemos la conexión con la máquina creada usando el siguiente comando
 
