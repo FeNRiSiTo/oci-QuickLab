@@ -63,7 +63,7 @@ b.	**Attachment type:** ISCSI.<br>
 6.	En Terminal, conéctese inicialmente a la instancia informática y ejecute el comando copiado.
 
     ```sh
-    ssh opc@<ip-da-máquina>
+    ssh -i <llave privada> opc@<ip VM>
     sudo su -
     <comando-connect>
     ```
