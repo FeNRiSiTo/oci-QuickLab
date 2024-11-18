@@ -75,11 +75,13 @@ Objetivos:
 
    ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-13.png)
 
-5. Colocamos la llave pública SSH creada en el paso 3 y clic en _"Create"_
+5. ***Guardamos*** la llave pública y privada que obtenemos desde OCI
+     _Esta llave puede ser utilizada como INPUT en otra VM utilizando la opción "Upload Key"_
 
-   ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-14.png)
+   ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-22.png)
 
-  Tu instancia tomará unos minutos en crearse. Si esta todo OK🤞, quedará como la imagen ⤵️
+  Le damos click al final en _"Create"_
+Tu instancia tomará unos minutos en crearse. Si esta todo OK🤞, quedará como la imagen ⤵️
   
   ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-15.png)
 
