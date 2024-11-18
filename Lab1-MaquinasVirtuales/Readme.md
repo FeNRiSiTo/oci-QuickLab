@@ -26,7 +26,7 @@ Objetivos:
 - [Paso 2: Acceder a la VM por el terminal](#paso-2-acceder-a-la-vm-por-el-terminal)
 
      
-### Paso 2: Crear 2 máquinas virtuales Oracle Linux
+### Paso 1: Crear 2 máquinas virtuales Oracle Linux
 
 1. En el menú 🍔, vamos a Compute ➡️ Instances
 2. 
