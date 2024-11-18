@@ -17,7 +17,6 @@ En este laboratorio, aprenderás a crear 2 máquinas virtuales Linux.
 _**Tiempo estimado para el laboratorio**_: 35 minutos
 
 Objetivos:
-- Crear un par de claves SSH en OCI Cloud Shell
 - Crear 2 máquinas virtuales (VM) Linux
 - Acceder a las instancias
 
