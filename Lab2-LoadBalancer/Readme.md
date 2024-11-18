@@ -43,7 +43,7 @@ Antes de comenzar a crear el servicio Load Balancer, tenga en cuenta que hay alg
    
    a. Conéctese al host de Linux (Ej:VM-OracleLinux-1)  utilizando el usuario opc, recuerde que para conectarse a la instancia debe utilizar la dirección IP privada de la maquina virtual el comando  
    ```sh
-   ssh opc@<ip privada vm> 
+   ssh -i <llave privada> opc@<ip privada vm> 
    ```      
    b. Una vez que haya iniciado sesión, cambie su usuario a ROOT con el comando:
    ```sh
