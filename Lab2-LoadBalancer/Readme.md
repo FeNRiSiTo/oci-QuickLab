@@ -20,6 +20,7 @@ Su Load Balancer tiene un backend definido para enrutar el tráfico entrante a s
 - **Heath check o verificación de estado:** Una prueba para confirmar la disponibilidad de los servidores back-end. Una verificación de estado puede ser una solicitud o un intento de conexión. Según el intervalo de tiempo que especifique, Load Balancer aplica la política de comprobación de estado para supervisar continuamente los servidores back-end. Si un servidor no supera la verificación de estado, Load Balancer sacará temporalmente el servidor de su rotación. Si el servidor pasa posteriormente la verificación de estado, Load Balancer lo devuelve a la rotación.
 
 ![imagen](../Lab2-LoadBalancer/Imagenes/Imagen1.png)
+
 En este laboratorio aprenderá cómo trabajar con Load Balancer dentro de Oracle Cloud Infrastructure
 
 
