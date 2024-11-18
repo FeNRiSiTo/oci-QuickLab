@@ -77,14 +77,6 @@ Este workshop se desarrollará usando un ambiente de LiveLabs proporcionado por 
 
      ![imagen](../PrimerosPasos/imagenes/paso14.png)
 
- 5. Volvemos a la página del workshop, vamos a los datos de la reserva y damos clic en _"Launch OCI"_ de nuevo
-
-     ![imagen](../PrimerosPasos/imagenes/paso15.png)
-
- 6. Verificas que los datos estén correctos y te loggeas con la nueva contraseña
-
-     ![imagen](../PrimerosPasos/imagenes/paso16.png)
-
 
 10. Si la cuenta ha sido agregada correctamente, te deberá aparecer este mensaje. Luego, haz clic en _"Listo"_⤵️
     
