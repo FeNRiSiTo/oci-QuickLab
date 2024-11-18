@@ -78,7 +78,7 @@ Objetivos:
 5. ***Guardamos*** la llave pública y privada que obtenemos desde OCI
      _Esta llave puede ser utilizada como INPUT en otra VM utilizando la opción "Upload Key"_
 
-   ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-22.png)
+   ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-21.png)
 
   Le damos click al final en _"Create"_
 Tu instancia tomará unos minutos en crearse. Si esta todo OK🤞, quedará como la imagen ⤵️
