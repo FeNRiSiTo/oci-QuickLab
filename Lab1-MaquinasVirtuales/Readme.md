@@ -91,7 +91,7 @@ Tu instancia tomará unos minutos en crearse. Si esta todo OK🤞, quedará como
     * Sistema Operativo: Oracle Linux 7.9
     * Tipo de Instancia: Máquina Virtual
     * Forma de la Instancia: AMD VM.Standard.E4.Flex
-    * Elija el Archivo de Clave SSH: Inserta el archivo de clave pública SSH (.pub)
+    * Elija el Archivo de Clave SSH: Guardar llaves generadas por consola web OCI (.key y .pub)
     * Compartimento de la Red de Nube Virtual: "Tu Compartimento"
     * Red de Nube Virtual: "Tu VCN"
     * Compartimento de Subred: "Tu Compartimento"
