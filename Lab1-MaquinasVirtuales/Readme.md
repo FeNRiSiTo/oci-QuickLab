@@ -67,7 +67,7 @@ Objetivos:
      ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-10.png)
      ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-11.png)
 
-   _Resultado_
+   IMPORTANTE: Seleccionar imagen Oracle Linux 7.9 (no autonomous), ya que la posterior implementación se lleva a cabo con esa versión de SO
 
     ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-12.png)
 
