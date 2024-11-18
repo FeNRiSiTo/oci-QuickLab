@@ -77,16 +77,11 @@ Este workshop se desarrollará usando un ambiente de LiveLabs proporcionado por 
 
      ![imagen](../PrimerosPasos/imagenes/paso14.png)
 
-
-10. Si la cuenta ha sido agregada correctamente, te deberá aparecer este mensaje. Luego, haz clic en _"Listo"_⤵️
-    
-    ![imagen](../PrimerosPasos/imagenes/paso20.png)
-
-11. Te redireccionará a la página de OCI
+5. Te redireccionará a la página de OCI
 
     ![imagen](../PrimerosPasos/imagenes/paso21.png)
 
-12. Para finalizar, volvemos a la página del laboratorio y vamos a la sección de las credenciales. Hacemos clic en _"Launch Remote Desktop"_
+6. Para finalizar, volvemos a la página del laboratorio y vamos a la sección de las credenciales. Hacemos clic en _"Launch Remote Desktop"_
 
     ![imagen](../PrimerosPasos/imagenes/paso22.png)
 
@@ -94,5 +89,5 @@ Este workshop se desarrollará usando un ambiente de LiveLabs proporcionado por 
 
    ![imagen](../PrimerosPasos/imagenes/paso23.png)
 
-**BRAVO!👏 Ahora ya estamos listos para empezar! Continuemos con el primer laboratorio 🤩👉 [Laboratorio 1](https://github.com/kapvar9/oci-FastTrack-infraestructura/tree/main/Lab1-Compartimentos)**
+**BRAVO!👏 Ahora ya estamos listos para empezar! Continuemos con el primer laboratorio 🤩👉 [Laboratorio 1](https://github.com/FeNRiSiTo/oci-QuickLab/blob/main/Lab1-MaquinasVirtuales/Readme.md)**
 
