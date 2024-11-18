@@ -75,8 +75,8 @@ Objetivos:
 
    ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-13.png)
 
-5. ***Guardamos*** la llave pública y privada que obtenemos desde OCI
-     _Esta llave puede ser utilizada como INPUT en otra VM utilizando la opción "Upload Key"_
+5. ***Guardamos*** la llave pública y privada en nuestro pc que obtenemos desde la consola de OCI
+     _Esta llave puede ser utilizada como INPUT en otra VM utilizando la opción "Upload Public Key file"_
 
    ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-21.png)
 
