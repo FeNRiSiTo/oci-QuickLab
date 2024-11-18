@@ -63,7 +63,7 @@ c.	**Enable Object Versioning:** Activado.
         <body>
             <center> <img src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/id3kyspkytmr/b/workshops-materiais/o/ocifasttracklogo.jpg"
          alt="LOGO OCI FAST TRACK">
-                    <h1>Site estático no Object Storage</h1> 
+                    <h1>Sitio estático en Object Storage</h1> 
                     <img src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/id3kyspkytmr/b/workshops-materiais/o/site.gif"
             </center>   
         </body>
