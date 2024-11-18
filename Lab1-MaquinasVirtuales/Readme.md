@@ -39,7 +39,7 @@ Objetivos:
     * Sistema Operativo: Oracle Linux 7.9
     * Tipo de Instancia: Máquina Virtual
     * Forma de la Instancia: AMD VM.Standard.E4.Flex
-    * Elija el Archivo de Clave SSH: Guardar llaves generadas por consola web OCI (.pub)
+    * Elija el Archivo de Clave SSH: Guardar llaves generadas por consola web OCI (.key y .pub)
     * Compartimento de la Red de Nube Virtual: "Tu Compartimiento"
     * Red de Nube Virtual: "Tu VCN"
     * Compartimento de Subred: "Tu Compartimiento" (Creado por defecto en el ambiente)
