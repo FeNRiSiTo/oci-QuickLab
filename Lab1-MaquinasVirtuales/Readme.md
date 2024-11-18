@@ -105,7 +105,7 @@ Objetivos:
   2. Volvemos al Escritorio Remoto, y en el terminal, hacemos la conexión con la máquina creada usando el siguiente comando
 
      ```
-     ssh opc@<ip privado da VM>
+     ssh -i <llave privada> opc@<ip privado VM>
      ```
 
      * El usuario por defecto de las instancias Linux es OPC
