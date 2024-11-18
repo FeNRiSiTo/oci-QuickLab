@@ -39,10 +39,10 @@ Objetivos:
     * Sistema Operativo: Oracle Linux 7.9
     * Tipo de Instancia: Máquina Virtual
     * Forma de la Instancia: AMD VM.Standard.E4.Flex
-    * Elija el Archivo de Clave SSH: Inserta el archivo de clave pública SSH (.pub)
-    * Compartimento de la Red de Nube Virtual: "Tu Compartimento"
+    * Elija el Archivo de Clave SSH: Guardar llaves generadas por consola web OCI (.pub)
+    * Compartimento de la Red de Nube Virtual: "Tu Compartimiento"
     * Red de Nube Virtual: "Tu VCN"
-    * Compartimento de Subred: "Tu Compartimento" (Creado por defecto en el ambiente)
+    * Compartimento de Subred: "Tu Compartimiento" (Creado por defecto en el ambiente)
     * Subred: Subred Pública
 
      Llena los datos según lo indicado. **Recuerda que ya tienes un compartment creado por defecto. Debes elegir ese** 🤓☝️
