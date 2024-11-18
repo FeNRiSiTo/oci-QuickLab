@@ -1,7 +1,7 @@
 # Crear un Bucket 
 ## Introducción
 
-rendimiento a escala en nube que ofrece durabilidad de datos confiable y rentable. El servicio Object Storage puede almacenar una cantidad ilimitada de datos no estructurados de cualquier tipo de contenido, incluidos datos analíticos y contenido enriquecido como imágenes y videos.
+Rendimiento a escala en nube que ofrece durabilidad de datos confiable y rentable. El servicio Object Storage puede almacenar una cantidad ilimitada de datos no estructurados de cualquier tipo de contenido, incluidos datos analíticos y contenido enriquecido como imágenes y videos.
 
 En este laboratorio aprenderá cómo trabajar con Object Storage dentro de Oracle Cloud Infrastructure.
 
