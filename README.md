@@ -31,4 +31,4 @@ _Tiempo estimado para terminar el Workshop_: 1.5 horas
 
 ### ¡Certíficate en OCI! 💻🚀
 
-<a href="https://mylearn.oracle.com/ou/learning-path/become-an-oci-foundations-associate-2023/122043"> 🏅OCI Foundations Associate</a>
+<a href="https://mylearn.oracle.com/ou/learning-path/become-an-oci-foundations-associate-2024/139374"> 🏅OCI Foundations Associate</a>
