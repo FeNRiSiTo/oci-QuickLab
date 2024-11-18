@@ -110,7 +110,7 @@ Objetivos:
 
      * El usuario por defecto de las instancias Linux es OPC
 
-     ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-17.png)
+     ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-19.png)
 
      **Super! Continuemos con el siguiente laboratorio 🤩👉 [Laboratorio 2 - Load Balancer](https://github.com/FeNRiSiTo/oci-QuickLab/blob/main/Lab2-LoadBalancer/Readme.md)**
    
