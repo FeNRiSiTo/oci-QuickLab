@@ -11,14 +11,14 @@ Nuestro objetivo es que, al final de este taller, es que puedas implementar tus 
 
 Al final de este taller, la arquitectura creada será la siguiente:
 
- ![imagen]( PrimerosPasos/imagenes/ft-architecture-gb.png)
+ ![imagen]( Lab0-PrimerosPasos/imagenes/ft-architecture-gb.png)
 
 _Tiempo estimado para terminar el Workshop_: 1.5 horas
 
 ##> [!IMPORTANT]
 ##> Antes de empezar, recuerda revisar la sección de Primeros Pasos
 
-- [Configuración del ambiente de laboratorio](PrimerosPasos/Readme.md)
+- [Configuración del ambiente de laboratorio](Lab0-PrimerosPasos/Readme.md)
   
 ### ¡Accede a la secuencia de laboratorios! ⬇
 - [Laboratorio 1 - Crear máquinas virtuales](Lab1-MaquinasVirtuales/Readme.md)
