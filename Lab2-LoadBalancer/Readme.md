@@ -19,7 +19,7 @@ Su Load Balancer tiene un backend definido para enrutar el tráfico entrante a s
 - **Certificados:** Si utiliza HTTPS o SSL para su *Listener*, debe asociar un certificado de servidor SSL (X.509) con su Load Balancer. Un certificado permite a Load Balancer finalizar la conexión y descifrar las solicitudes entrantes antes de pasarlas a los servidores back-end.
 - **Heath check o verificación de estado:** Una prueba para confirmar la disponibilidad de los servidores back-end. Una verificación de estado puede ser una solicitud o un intento de conexión. Según el intervalo de tiempo que especifique, Load Balancer aplica la política de comprobación de estado para supervisar continuamente los servidores back-end. Si un servidor no supera la verificación de estado, Load Balancer sacará temporalmente el servidor de su rotación. Si el servidor pasa posteriormente la verificación de estado, Load Balancer lo devuelve a la rotación.
 
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen1.png)
+![imagen](../Lab2-LoadBalancer/Imagenes/Imagen1.png)
 En este laboratorio aprenderá cómo trabajar con Load Balancer dentro de Oracle Cloud Infrastructure
 
 
@@ -111,8 +111,8 @@ Antes de comenzar a crear el servicio Load Balancer, tenga en cuenta que hay alg
 
 4.	Pruebe el comportamiento de Apache, todo lo que necesita hacer es usar la **IP privada de la instancia de computo** (VM-OracleLinux-AD1) en el navegador web VNC para ver si aparece la página de inicio de Apache.<br>
 
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen2.png)<br>
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen3.png)
+![imagen](../Lab2-LoadBalancer/Imagenes/Imagen2.png)<br>
+![imagen](../Lab2-LoadBalancer/Imagenes/Imagen3.png)
 
 Si todo está bien, puede probar la instalación de Apache en la segunda VM (VM-OracleLinux-AD2). Todo lo que necesita hacer es usar la dirección IP privada de la segunda instancia en el navegador noVNC y probablemente obtendrá un resultado similar al de la imagen anterior.
 
@@ -127,11 +127,11 @@ Nuestro objetivo es crear el servicio Load Balancer solo después de que ambos s
 ### Tarea 2: Crear una aplicación en Alta Disponibilidad (HA) con un Load Balancer y 2 servidores web.
 1.	Para acceder a la interfaz de Load Balancer, una vez más, comencemos desde “Menú principal > Load Balancers” <br>
 
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen4.png)
+![imagen](../Lab2-LoadBalancer/Imagenes/Imagen4.png)
 Posteriormente haga clic sobre "Create Load Balancer" <br>
 
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen5.png)
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen6.png)
+![imagen](../Lab2-LoadBalancer/Imagenes/Imagen5.png)
+![imagen](../Lab2-LoadBalancer/Imagenes/Imagen6.png)
 
 2. La pantalla de creación del Load Balancer es una plantilla basada en un asistente, donde se le guiará a través del proceso a través de la interfaz. En la pantalla principal, proporcionará la siguiente información:
 - **Nombre**: lb-apache
@@ -140,31 +140,31 @@ Posteriormente haga clic sobre "Create Load Balancer" <br>
 - **VCN:** <Seleccione su VCN>
 - **Subred:** <Seleccione su subred privada>
 *Elija la subred, la misma subred donde se crearon sus instancias de computo*<br>
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen7.png) <br>
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen8.png) <br>
+![imagen](../Lab2-LoadBalancer/Imagenes/Imagen7.png) <br>
+![imagen](../Lab2-LoadBalancer/Imagenes/Imagen8.png) <br>
 3.	Establezca la política del Load Balancer y agregue los servidores backend. Para agregar servidores backend, haga clic en el botón azul **"Add backends"** <br>
 
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen9.png)
+![imagen](../Lab2-LoadBalancer/Imagenes/Imagen9.png)
 
 4. Inserte los servidores del conjunto de backend (sus dos máquinas virtuales Linux):
 
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen10.png)
+![imagen](../Lab2-LoadBalancer/Imagenes/Imagen10.png)
 
 5. Como último paso, definir el tipo de tráfico que se manejará. <br>
 
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen11.png)
+![imagen](../Lab2-LoadBalancer/Imagenes/Imagen11.png)
 
 Una vez completado el proceso de creación, tendrás la siguiente información: <br>
 
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen12.png)
+![imagen](../Lab2-LoadBalancer/Imagenes/Imagen12.png)
 
 #### Probando nuestro Load Balancer
 
 6. Para simular un entorno de aplicación, necesitamos iniciar un servicio web en ambas instancias de Computo.
 *Para obtener resultados diferentes de las llamadas del Load Balancer, agregue contenido diferente al archivo Index.html en cada cálculo.*
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen13.png)
+![imagen](../Lab2-LoadBalancer/Imagenes/Imagen13.png)
 7. Utilice la IP privada del equilibrador de carga en el navegador noVNC para ver que su aplicación se dirige a los 2 servidores con diferentes respuestas en el archivo Index.html.
 
-**Super! Continuemos con el siguiente laboratorio 🤩👉 [Laboratorio 7 - Autonomous Database](https://github.com/kapvar9/oci-FastTrack-infraestructura/blob/main/Lab7-AutonomousDB/Readme.md)**
+**Super! Continuemos con el siguiente laboratorio 🤩👉 [Laboratorio 3 - Block Volume](https://github.com/FeNRiSiTo/oci-QuickLab/blob/main/Lab3-BlockVolume/Readme.md)**
 
    
