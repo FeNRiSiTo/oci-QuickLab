@@ -22,42 +22,9 @@ Objetivos:
 - Acceder a las instancias
 
 **Cada máquina virtual debe estar en un AD diferente**. Para ellos seguiremos los siguientes pasos:
-- [Paso 1: Crear un par de llaves SSH](#paso-1-crear-un-par-de-llaves-ssh)
-- [Paso 2: Crear 2 máquinas virtuales Oracle Linux](#paso-2-crear-2-máquinas-virtuales-oracle-linux)
-- [Paso 3: Acceder a la VM por el terminal](#paso-3-acceder-a-la-vm-por-el-terminal)
+- [Paso 1: Crear 2 máquinas virtuales Oracle Linux](#paso-1-crear-2-máquinas-virtuales-oracle-linux)
+- [Paso 2: Acceder a la VM por el terminal](#paso-2-acceder-a-la-vm-por-el-terminal)
 
-### Paso 1: Crear un par de llaves SSH
-
-1. Abrimos el escritorio remoto y el terminal 
-
-  ![imagen](../PrimerosPasos/imagenes/paso23.png)
-
-2. Para crear el par de llaves usamos el comando:
-
-   ```
-   ssh-keygen -t rsa
-   ```
-   - Mantenga el nombre original de la llave (id_rsa) aprentando enter
-   - El campo "Key Passphrase" es opcional
-
-   ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-1.png)
-
-3. Para ver el contenido de la llave pública, ejecuta este comando:
-   
-   ```
-   cat ~/.ssh/id_rsa.pub
-   ```
-  > **Nota:** Si no sabes la combinación de teclas para el símbolo "~" (virgulilla), busca el símbolo y copialo en el área de transferencia del Escritorio Remoto. Luego de ello, pégalo dentro del terminal usando _clic derecho + pegar_. Puedes hacer esto para facilitar el copiado/pegado de texto entre tu escritorio y el escritorio remoto.
-
-   ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-3.png)
-
-  * Selecciona y copia el contenido de la llave. Usaremos esto para la creación de las máquinas virtuales. Recuerda copiar el texto en el área de transferencia del Escritorio Remoto
-    
-    ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-2.png)
-
-  _Para la creación de la VM, usaremos una llave pública y para la conexión, usaremos la llave privada_
-
-   ![imagen](../Lab1-MaquinasVirtuales/imagenes/lab3-4.png)
      
 ### Paso 2: Crear 2 máquinas virtuales Oracle Linux
 
@@ -130,7 +97,7 @@ Objetivos:
     * Compartimento de Subred: "Tu Compartimento"
     * Subred: Subred Pública
 
-  ### Paso 3: Acceder a la VM por el terminal
+  ### Paso 2: Acceder a la VM por el terminal
 
   1. Copiamos la IP privada de una nuestras instancias
      
