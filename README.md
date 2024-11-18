@@ -21,10 +21,10 @@ _Tiempo estimado para terminar el Workshop_: 1.5 horas
 - [Configuración del ambiente de laboratorio](PrimerosPasos/Readme.md)
   
 ### ¡Accede a la secuencia de laboratorios! ⬇
-- [Laboratorio 3 - Crear máquinas virtuales](Lab1-MaquinasVirtuales/Readme.md)
-- [Laboratorio 6 - Crear un load balancer](Lab6-LoadBalancer/Readme.md)
-- [Laboratorio 4 - Crear un block volume](Lab4-BlockVolume/Readme.md)
-- [Laboratorio 5 - Crear un bucket](Lab5-ObjectStorage/Readme.md)
+- [Laboratorio 1 - Crear máquinas virtuales](Lab1-MaquinasVirtuales/Readme.md)
+- [Laboratorio 2 - Crear un load balancer](Lab2-LoadBalancer/Readme.md)
+- [Laboratorio 3 - Crear un block volume](Lab3-BlockVolume/Readme.md)
+- [Laboratorio 4 - Crear un bucket](Lab4-ObjectStorage/Readme.md)
 
 
 
